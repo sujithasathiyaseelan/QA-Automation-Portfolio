@@ -1,0 +1,33 @@
+package xyz;
+
+public class HSstudents {
+	String name;
+	String Department;
+	int id;
+	
+	
+	public void SDlist() {
+		
+	}
+public void SDlist(String SDname,int SDid,String SDDepartment) {
+	name=SDname;
+	id=SDid;
+	Department=SDDepartment;
+	System.out.println("SDname"+SDid+"Department");
+	
+	}
+public void SDlist(int SDDOB,String SDEmail) {
+	SDDOB=12/03/1984;
+	SDEmail="ela@gmail.com";
+	System.out.println(SDDOB+"SDEmail");
+	
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+HSstudents HS= new HSstudents();
+HS.SDlist("Ema", 44, "ECE");
+HSstudents HS1=new HSstudents();
+HS.SDlist("SDDOB", "SDEmail" );
+	}
+	}
+

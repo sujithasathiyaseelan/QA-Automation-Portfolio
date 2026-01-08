@@ -1,0 +1,47 @@
+package xyz;
+
+public class ChecktheCount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="abcd@123";
+		int n=s.length();
+		int Alpha=0;;
+		int Special=0;
+		int numbers=0;
+		char ch=s.charAt(i);
+		
+		for(int i=0;i<n;i++) {
+		
+		if((ch>='a'&& ch<='z')||(ch>='A'&&(ch<='z')){
+			Alpha++;
+			
+		//System.out.println("The value of Alpha =:"+Alpha);
+	}
+	
+		else if (ch >='0' && ch <='9')
+		{
+			numbers++;
+		}
+		else 
+		{
+		Special++;
+		}}
+//			
+
+		
+		System.out.println ("The count of Alpha =:"+Alpha);
+		System.out.println ("The count of numbers =:"+numbers);
+		System.out.println ("The count of Special =:"+Special);
+		
+			
+		
+		
+		
+		
+		
+		
+
+	
+
+}}

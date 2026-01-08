@@ -1,0 +1,38 @@
+package xyz;//with parameter and return type
+
+
+
+public class TeamDetails {
+	public static void main(String[] args) {
+		Test2 t=new Test2();
+		t.employee_info("Beth", "Dev", "TPERT");
+	7yt.Display();
+	}
+	
+//	String name;
+//	String role;
+//	String address;
+//	 public void team(String name, String role,String address) {
+//		 this.name=name;
+//		 this.role=role;
+//		 this.address=address;
+//	 }
+//		 
+//	 public void Display() {
+//		 System.out.println("Name of the Employee ="+ name);
+//		 System.out.println("Role of the Employee ="+role);
+//		 System.out.println("Address of the Employee="+address);
+//	 }
+//	 
+//
+//	public static void main(String[] args) {
+//		TeamDetails T= new TeamDetails();
+//		T.team("Jack","BA","123,EAST DR LANE ");
+//		T.Display();
+//		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+

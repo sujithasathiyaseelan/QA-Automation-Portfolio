@@ -1,0 +1,29 @@
+package xyz;
+
+public class StudentDetails {
+	String Studentname;
+	int rollno;
+	String Teacher="Ms .Pamelea";
+//public void Classlist_display() {
+//	System.out.println("Name of the Student ="+Studentname);
+//	System.out.println("Rollno of the Student ="+rollno);
+//	System.out.println("Student's Teacher name ="+Teacher);
+//}
+public void Display_info(String Sdname,int Sdrollno,String SdTeacher) {
+	Studentname=Sdname;
+	rollno=Sdrollno;
+	Teacher="SdTeacher";
+	
+}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+StudentDetails SD=new StudentDetails();//Stores values in the object
+//SD.Studentname="EVA";
+//SD.rollno=34;
+//SD.Classlist_display();
+SD.Display_info("Jack", 56,"Ms Brenan");
+	}
+
+}

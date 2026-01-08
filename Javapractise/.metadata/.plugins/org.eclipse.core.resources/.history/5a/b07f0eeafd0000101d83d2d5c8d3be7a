@@ -1,0 +1,22 @@
+package xyz;
+
+import java.util.Arrays;
+
+public class Replaceusingstring {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String s="Python@Java";
+String[] v=s.split("@");//v[0]="Python",v[1]="Java"
+StringBuilder b= new StringBuilder();
+
+
+
+//String e= String.join("",v);//concat the values of v into string
+//System.out.println(e);
+for (String w:v) {
+	b.append(w);}
+	System.out.println(b.toString());
+
+	}}
+

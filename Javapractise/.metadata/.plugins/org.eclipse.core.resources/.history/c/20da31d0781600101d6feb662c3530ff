@@ -1,0 +1,58 @@
+package xyz;//Encapsulation
+
+public class Encapsulation {
+	private int Accountno;
+	private String Name;
+	private String TypeofDeposit;
+	
+	public  void Encapsualtion(int AccountNumber,String AccountName,String Deposit) {
+		this.Accountno=AccountNumber;
+		this.Name=AccountName;
+		this.TypeofDeposit=Deposit;
+		}
+
+
+	
+	public int getAccountno() {
+		return Accountno;
+	}
+
+
+
+	public void setAccountno(int accountno) {
+		Accountno = accountno;
+	}
+
+
+
+	public String getName() {
+		return Name;
+	}
+
+
+
+	public void setName(String name) {
+		Name = name;
+	}
+
+
+
+	public String getTypeofDeposit() {
+		return TypeofDeposit;
+	}
+
+
+
+	public void setTypeofDeposit(String typeofDeposit) {
+		TypeofDeposit = typeofDeposit;
+	}
+
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		
+	}
+
+}

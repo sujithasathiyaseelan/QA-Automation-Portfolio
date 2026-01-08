@@ -1,0 +1,14 @@
+package xyz;
+
+public class TeamDetails {
+	String name;
+	String role;
+	String Address;
+	 public void 
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
